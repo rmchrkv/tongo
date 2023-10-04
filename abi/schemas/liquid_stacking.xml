@@ -117,6 +117,9 @@
     <internal name="tonstake_controller_return_available_funds">
         return_available_funds#55c26cd5 query_id:uint64 = InternalMsgBody;
     </internal>
+    <internal name="tonstake_controller_return_ton">
+        return_ton#db3b8abd query_id:uint64 = InternalMsgBody;
+    </internal>
 
     <!--     TonStake messages to pool -->
     <internal name="tonstake_pool_request_loan">
@@ -199,5 +202,5 @@
     <internal name="tonstake_nft_init">
         init_nft#132f9a45 query_id:uint64 owner:MsgAddress amount:Coins prev:MsgAddress next:MsgAddress = InternalMsgBody;
     </internal>
-
+    
 </abi>
